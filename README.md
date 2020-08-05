@@ -26,6 +26,12 @@ let filter = ProfanityFilter::new();
 let filtered_word = filter.filter("Hello world!");
 ```
 
+## Testing
+There's a few tests set up to test what this library can and cannot handle right now.
+```bash
+cargo test
+```
+
 ## Example
 If you want to play around with the library, there's an example binary you can run. Once started, type a sentence, press `Return` and the binary will print the filtered sentence. If you wish to quit, interrupt with a `Ctrl-c`.
 ```bash
